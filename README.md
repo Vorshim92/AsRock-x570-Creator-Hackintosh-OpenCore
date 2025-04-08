@@ -1,6 +1,7 @@
 # AsRock x570 Creator Hackintosh OpenCore
 
 This EFI only boots macOS Sequoia! Older versions are not supported.
+![EFI Screenshot](/screenshots/infomac.png)
 
 ## Relevant build details:
 
@@ -13,6 +14,17 @@ This EFI only boots macOS Sequoia! Older versions are not supported.
 ## What is NOT working:
 
 - Bluetooth (WIP)
+
+## Some screenshots:
+
+- NVME Gen4 Crucial CT500P5 Benchmark:
+  ![EFI Screenshot](/screenshots/nvme_crucial_CT500P5_benchmark.png)
+
+- NIC 10Gbit Aquantia AQC107:
+  ![EFI Screenshot](/screenshots/10Gbps_Aquantia_AQC107.png)
+
+- AMD GPU 3 Monitor (Dell Alienware 4k Monitor):
+  ![EFI Screenshot](/screenshots/gpu_amd_rx560_3monitors.png)
 
 ## Honorable mentions:
 
