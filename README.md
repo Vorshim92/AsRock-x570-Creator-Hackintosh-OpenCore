@@ -13,8 +13,6 @@ This EFI only boots macOS Sequoia! Older versions are not supported.
 
 ## What is NOT working:
 
-- Bluetooth (WIP)
-
 ## Some screenshots:
 
 - NVME Gen4 Crucial CT500P5 Benchmark:

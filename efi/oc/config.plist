@@ -125,11 +125,6 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>#PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>disable-gpu</key>
-                    <data>AQAAAA==</data>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>built-in</key>
@@ -148,6 +143,11 @@
                 <key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>built-in</key>
+                    <data>AQAAAA==</data>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>disable-gpu</key>
                     <data>AQAAAA==</data>
                 </dict>
             </dict>
@@ -1397,6 +1397,10 @@
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
+                    <key>bluetoothExternalDongleFailed</key>
+                    <data>AA==</data>
+                    <key>bluetoothInternalControllerInfo</key>
+                    <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
                     <string>itlwm_cc=IT</string>
                     <key>csr-active-config</key>
@@ -1421,6 +1425,8 @@
                 <array>
                     <string>boot-args</string>
                     <string>ForceDisplayRotationInEFI</string>
+                    <string>bluetoothExternalDongleFailed</string>
+                    <string>bluetoothInternalControllerInfo</string>
                 </array>
             </dict>
             <key>LegacyOverwrite</key>
